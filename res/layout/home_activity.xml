@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/white"
+    >
+    
+    <ScrollView android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingTop="70dp">
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="vertical"
+			android:layout_marginTop="20dip" android:padding="15dip">
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_weight="1">
+				<Button android:id="@+id/home_btn_play" style="@style/HomeButton"
+					android:onClick="onPlayClick" android:text="@string/btn_play"
+					android:drawableTop="@drawable/play" />
+				<Button android:id="@+id/home_btn_create_level" style="@style/HomeButton"
+					android:onClick="onCreateLevelClick" android:text="@string/btn_create_level"
+					android:drawableTop="@drawable/create" />
+			</LinearLayout>
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_weight="1" android:paddingTop="20dp">
+				<Button android:id="@+id/home_btn_scores" style="@style/HomeButton"
+					android:onClick="onGetScoresClick" android:text="@string/btn_get_scores"
+					android:drawableTop="@drawable/scores" />
+				<Button
+				    android:id="@+id/home_btn_get_levels"
+				    style="@style/HomeButton"
+				    android:drawableTop="@drawable/download"
+				    android:onClick="onGetLevelsClick"
+				    android:text="@string/btn_get_levels" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+
+    
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Snake</string>
+    
+    <!-- Home activity -->
+    <string name="btn_play">Play</string>
+    <string name="btn_create_level">Create level</string>
+    <string name="btn_get_scores">Scores</string>
+    <string name="btn_get_levels">Get levels</string>
+    
+    <string name="txt_username">Name</string>
+
+</resources>
